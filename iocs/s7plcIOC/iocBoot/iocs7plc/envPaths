@@ -1,0 +1,5 @@
+epicsEnvSet("IOC","iocs7plc")
+epicsEnvSet("TOP","/epics/src/support/s7plc/iocs/s7plcIOC")
+epicsEnvSet("S7PLC","/epics/src/support/s7plc/iocs/s7plcIOC/../..")
+epicsEnvSet("EPICS_BASE","/epics/src/base")
+epicsEnvSet("CALC","/epics/src/support/calc")

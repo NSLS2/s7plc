@@ -1,4 +1,4 @@
-#!O.linux-x86/s7plcApp
+#!../../bin/linux-x86_64/s7plcApp
 dbLoadDatabase O.Common/s7plcApp.dbd
 s7plcApp_registerRecordDeviceDriver
 
