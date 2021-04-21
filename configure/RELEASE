@@ -15,10 +15,12 @@
 #  RELEASE.$(EPICS_HOST_ARCH).$(T_A)
 
 # EPICS_BASE should appear last so earlier modules can override stuff:
-EPICS_BASE=/epics/src/base
-
+SUPPORT=/epics/src/support
 
 CALC=/epics/src/support/calc
+
+EPICS_BASE=/epics/src/base
+
 # These allow developers to override the RELEASE variable settings
 # without having to modify the configure/RELEASE file itself.
 -include $(TOP)/../RELEASE.local
